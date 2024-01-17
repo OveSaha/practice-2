@@ -57,6 +57,15 @@ width: 65%;
 
 }
 }
+@media screen and (max-width: 670px){
+    .icon-box {
+        flex-wrap: wrap;
+    }
+    .head-text {
+        width: 455px;
+    }
+}
+
 @media screen and (max-width: 650px){
     .container{
         max-width: 585px;
@@ -69,7 +78,9 @@ width: 65%;
     font-size: 14px;
     width: fit-content;
     }
-
+    .head-text {
+        width: 385px;
+    }
 }
 @media screen and (max-width: 603px){
     .container{
