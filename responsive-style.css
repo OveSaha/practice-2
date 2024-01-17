@@ -1,3 +1,27 @@
-@media screen and (max-width: 600px) {
-    
+@media screen and (max-width: 1024px) {
+    .nav-logo {
+width: 35%;
+    }
+    .menu{
+width: 65%;
+    }
+}
+@media screen and (max-width: 660px){
+    .nav-logo {
+        /* width: 50%; */
+            }
+            .menu{
+        /* width: 50%; */
+      visibility: hidden;
+      display: none;
+            }
+}
+@media screen and (max-width: 620px) {
+    .nav-logo {
+        width: 50%;
+            }
+            .menu{
+                /* width: 50%;
+              visibility: hidden; */
+                    }
 }

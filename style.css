@@ -4,12 +4,12 @@
     padding:0;
 }
 body{
-    font-family: 'Mulish', sans-serif;  
+    font-family: 'Mulish', sans-serif; 
+     
 }
 .container{
     max-width: 1200px;
     margin: 0 auto;
-    padding: 8px;
 }
 header {
     min-height: 74px !important;
@@ -23,7 +23,7 @@ width: 55px;
 }
 .nav-head {
     display: flex;
-    justify-content: space-between;
+    /* justify-content: space-around; */
     align-items: center;
     min-height: 76px;
 }
@@ -42,7 +42,6 @@ width: 55px;
 
 .nav-logo span {
     color: #FF5400;
-    font-family: Mulish;
     font-size: 25px;
     font-weight: 800;
     line-height: normal;
@@ -56,7 +55,6 @@ width: 55px;
     text-decoration: none;
     color: #424247;
     text-align: center;
-    font-family: Mulish;
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
@@ -72,10 +70,8 @@ width: 55px;
 
 /* banner */
 
-.banner{
 
-}
-.banner-text{
+.banner-img{
     background-image: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url(Images/Group\ 13\ \(1\)\ \(1\).png);
     background-position: center;
     background-repeat: no-repeat;
@@ -83,35 +79,36 @@ width: 55px;
     border-radius: 16px;
     width: 100%;
 height: 68vh;
+display: grid;
+    place-content: center;
 }
-.image-text-con{
-color: #fff;
-padding: 75px 0 75px 0;
-/* margin: auto; */
-}
-.image-text-con h1{
+
+.banner-text h1{
     color: #FFF;
 font-size: 55px;
 font-weight: 800;
 text-align: center;
 }
-.image-text-con p{
+.banner-text p{
     color: #FFF;
 text-align: center;
 font-size: 16px;
 font-weight: 400;
 line-height: 26px;
 width: 605px;
-margin:18px auto;
+margin:18px 0 18px 0;
 }
-.image-text-con form{
-    text-align: center;
+.banner-form form{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-items: center;
+    gap: 10px;
+}
+.banner-form {
     border-radius: 8px;
     background: rgba(255, 255, 255, 0.30);
-    display: flex;
-    flex-wrap: nowrap;
-    justify-content: space-around;
-    align-items: center;
+    padding: 10px;
+    width: 601px;
 }
 .input-div {
     position: relative;
@@ -154,3 +151,49 @@ button i.fa-solid.fa-magnifying-glass {
     padding: 2px;
     margin-right: 6px;
 } 
+/* 2nd section */
+
+.text-div-1{
+display: flex;
+gap: 20px;
+/* justify-content: center;
+align-items: center; */
+}
+.text-div-1 h1{
+    color: #131318;
+    font-size: 40px;
+    font-weight: 800;
+    margin-top: 15px;
+    margin-bottom: 18px;
+
+}
+.text-div-1 p{
+    color: rgba(19, 19, 24, 0.70);
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+}
+.text-div-1 ul li{
+    color: rgba(19, 19, 24, 0.70);
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+width: 485px;
+    padding: 10px;
+}
+.text-div-1 ul{
+    padding: 14px;
+}
+.button-read-more {
+    border: 1px solid red;
+    padding: 9px 17px;
+    font-size: 15px;
+    margin-top: 15px;
+    color: #fff;
+    border-radius: 8px;
+    background: #FF5400;
+}
+
+.text-div-1 .img-div{
+
+}
