@@ -80,9 +80,12 @@ width: 55px;
     width: 100%;
 height: 68vh;
 display: grid;
-    place-content: center;
+    /* place-content: center; */
+    place-items: center;
 }
-
+.banner-text{
+    
+}
 .banner-text h1{
     color: #FFF;
 font-size: 55px;
@@ -108,7 +111,7 @@ margin:18px 0 18px 0;
     border-radius: 8px;
     background: rgba(255, 255, 255, 0.30);
     padding: 10px;
-    width: 601px;
+    /* width: 601px; */
 }
 .input-div {
     position: relative;
@@ -151,15 +154,17 @@ button i.fa-solid.fa-magnifying-glass {
     padding: 2px;
     margin-right: 6px;
 } 
+
 /* 2nd section */
 
+.section-for-text-img{
+    margin-top: 50px;
+}
 .text-div-1{
 display: flex;
-gap: 20px;
-/* justify-content: center;
-align-items: center; */
+align-items: center;
 }
-.text-div-1 h1{
+.text-div-2 h1{
     color: #131318;
     font-size: 40px;
     font-weight: 800;
@@ -167,22 +172,22 @@ align-items: center; */
     margin-bottom: 18px;
 
 }
-.text-div-1 p{
+.text-div-2 p{
     color: rgba(19, 19, 24, 0.70);
 font-size: 16px;
 font-weight: 400;
 line-height: 26px;
 }
-.text-div-1 ul li{
+.text-div-2 ul li{
     color: rgba(19, 19, 24, 0.70);
 font-size: 16px;
 font-weight: 400;
 line-height: 26px;
-width: 485px;
+/* width: 485px; */
     padding: 10px;
 }
-.text-div-1 ul{
-    padding: 14px;
+.text-div-2 ul{
+    padding: 19px;
 }
 .button-read-more {
     border: 1px solid red;
@@ -193,7 +198,46 @@ width: 485px;
     border-radius: 8px;
     background: #FF5400;
 }
-
-.text-div-1 .img-div{
-
+.img-div{
+    width: 50%;
 }
+.img-div img {
+    width: 100%;
+}
+
+.text-div-2 {
+    width: 50%;
+    padding: 10px;
+}
+
+/* section 3 */
+
+.img-section-1{
+display: grid;
+grid-template-areas: 
+"row-img-1 row-img-1 row-img-2 row-img-2"
+"row-img-3 row-img-4 row-img-4 row-img-5"
+"row-img-6 row-img-7 row-img-7 row-img-7";
+gap: 10px;
+}
+.row-img-1{
+grid-area: row-img-1;
+}
+.row-img-2{
+    grid-area: row-img-2;
+    }
+.row-img-3{
+        grid-area: row-img-3;
+}
+.row-img-4{
+    grid-area: row-img-4;
+}
+.row-img-5{
+    grid-area: row-img-5;
+}
+.row-img-6{
+        grid-area: row-img-6;
+}
+.row-img-7{
+            grid-area: row-img-7;
+ }
