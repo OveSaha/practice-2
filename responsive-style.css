@@ -46,15 +46,22 @@ width: 65%;
         max-width: 700px;
     }
 }
-@media screen and (max-width: 660px){
-    .nav-logo {
-        /* width: 50%; */
-            }
-            .menu{
-        /* width: 50%; */
-      visibility: hidden;
-      display: none;
-            }
+@media screen and (max-width: 730px){
+
+    .menu{
+        visibility: hidden;
+        display: none;
+              }
+              .nav-head {
+                  display: flex;
+                  justify-content: space-between;
+              }
+              .bar-menu{
+                  display: block;
+              }
+              .bar-menu img {
+                  width: 35px;
+              }
 }
 @media screen and (max-width: 620px) {
     .nav-logo {
@@ -218,6 +225,7 @@ input {
         flex-direction: column;
         flex-wrap: wrap;
     }
+    
 }
 
 
