@@ -1,9 +1,49 @@
+@media screen and (max-width: 1150px){
+    .container {
+        max-width: 1075px;
+        margin: 0 auto;
+    }
+}
+@media screen and (max-width: 1090px){
+    .container {
+        max-width: 965px;
+    }
+}
+
 @media screen and (max-width: 1024px) {
     .nav-logo {
 width: 35%;
     }
     .menu{
 width: 65%;
+    }
+    .container{
+        width:930px;
+    }
+}
+@media screen and (max-width: 960px){
+    .container {
+        max-width: 895px;
+    }
+}
+@media screen and (max-width: 920px){
+    .container {
+        max-width: 875px;
+    }
+}
+@media screen and (max-width: 880px){
+    .container {
+        max-width: 780px;
+    }
+}
+@media screen and (max-width: 800px){
+    .container {
+        max-width: 750px;
+    }
+}
+@media screen and (max-width: 770px){
+    .container {
+        max-width: 700px;
     }
 }
 @media screen and (max-width: 660px){
@@ -56,6 +96,22 @@ width: 65%;
     grid-template-columns: repeat(1, 1fr);
 
 }
+form button {
+    width: 100%;
+}
+.banner-form {
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
+    padding: 18px;
+    width: 244px;
+}
+input {
+    width: 226px;
+}
+.main-icon {
+    left: 216px;
+   bottom: 9px;
+}
 }
 @media screen and (max-width: 670px){
     .icon-box {
@@ -63,6 +119,15 @@ width: 65%;
     }
     .head-text {
         width: 455px;
+    }
+    .box-1 {
+        width: 75%;
+    }
+    .box-2 {
+        width: 75%;
+    }
+    .box-3 {
+        width: 75%;
     }
 }
 
@@ -81,7 +146,52 @@ width: 65%;
     .head-text {
         width: 385px;
     }
+    .text-contain {
+        width: 349px;
+        top: 113px;
+        left: 80px;
+        padding: 30px;
+    }
+    .text-contain-1 {
+        width: 349px;
+        top: 113px;
+        left: 80px;
+        padding: 30px;
+    }
+    .price-buy h1 {
+        font-size: 22px;
+        line-height: 40px;
+    }
+    .p-style {
+        font-size: 14px;
+        line-height: 25px;
+    }
+    .price-btn {
+        font-size: 14px;
+    }
+    .book-btn {
+        font-size: 12px;
+    }
+    .list ul li {
+        font-size: 12px;
+    }
 }
+@media screen and (max-width: 600px){
+    .text-contain {
+        width: 308px;
+        top: 125px;
+        left: 80px;
+        padding: 28px;
+    }
+    .text-contain-1 {
+        width: 308px;
+        top: 125px;
+        left: 80px;
+        padding: 28px;
+    }
+}
+
+
 @media screen and (max-width: 603px){
     .container{
         max-width: 530px;
@@ -91,10 +201,17 @@ width: 65%;
         width: 470px;
     }
 }
+
 @media screen and (max-width:553px) {
     .container{
         max-width: 500px;
         margin: 0 auto;
+    }
+    .text-contain {
+        left: 60px;
+    }
+    .text-contain-1 {
+        left: 60px;
     }
 }
 @media screen and (max-width:512px) {
@@ -106,6 +223,14 @@ width: 65%;
         width: 400px;
         line-height: 20px;
         margin: 11px 0 11px 0;
+    }
+}
+@media screen and (max-width: 500px){
+    .text-contain {
+        left: 52px;
+    }
+    .text-contain-1 {
+        left: 52px;
     }
 }
 /* @media screen and (max-width:480px) {
@@ -122,18 +247,40 @@ width: 65%;
         width: 100%;
        
     }
+    .text-contain {
+        width: 275px;
+        left: 55px;
+        padding: 24px;
     }
+    .text-contain-1 {
+        width: 275px;
+        left: 55px;
+        padding: 24px;
     }
+}
+
     @media screen and (max-width:450px){
         .container{
             max-width: 420px;
             margin: 0 auto;
+        }
+        .text-contain {
+            left: 48px;
+        }
+        .text-contain-1 {
+            left: 48px;
         }
         }
         @media screen and (max-width:435px){
             .container{
                 max-width: 400px;
                 margin: 0 auto;
+            }
+            .text-contain {
+                left: 37px;
+            }
+            .text-contain-1 {
+                left: 37px;
             }
             }
 @media screen and (max-width:420px){
@@ -151,6 +298,12 @@ width: 65%;
                 .banner-text {
                     width: 340px;
                 }
+                .text-contain {
+                    left: 30px;
+                }
+                .text-contain-1 {
+                    left: 30px;
+                }
                 }
 @media screen and (max-width:400px){
     .banner-text p {
@@ -159,6 +312,30 @@ width: 65%;
     .container {
         max-width: 355px;
         margin: 0 auto;
+    }
+    .text-contain {
+        width: 256px;
+        padding: 18px;
+        top: 150px;
+    }
+    .text-contain-1 {
+        width: 256px;
+        padding: 18px;
+        top: 150px;
+    }
+    .list ul {
+        gap: 6px;
+        flex-wrap: wrap;
+    }
+    .head-text h1 {
+        font-size: 32px;
+    }
+    .head-text p {
+        font-size: 13px;
+        line-height: 21px;
+    }
+    .head-text {
+        width: 337px;
     }
 }
 @media screen and (max-width:370px){
@@ -179,6 +356,29 @@ width: 65%;
     .text-div-2 p {
         font-size: 14px;
     }
+    .text-contain {
+        left: 29px;
+        width: 231px;
+    }
+    .text-contain-1 {
+        left: 29px;
+        width: 231px;
+    }
+    .list ul li {
+        line-height: 16px;
+    }
+    .p-style {
+        font-size: 13px;
+        line-height: 23px;
+    }
+    .price-btn {
+        font-size: 13px;
+        line-height: 25px;
+    }
+    .book-btn {
+        font-size: 11px;
+        padding: 8px 15px;
+    }
 }
 @media screen and (max-width:350px){
 
@@ -186,10 +386,26 @@ width: 65%;
         max-width: 315px;
         margin: 0 auto;
     }
+    .head-text {
+        width: 300px;
+    }
+    .text-contain {
+        left: 22px;
+    }
+    .text-contain-1 {
+        left: 22px;
+    }
+}
     @media screen and (max-width:330px){
         .container {
             max-width: 300px;
             margin: 0 auto;
+        }
+        .text-contain {
+            left: 14px;
+        }
+        .text-contain-1 {
+            left: 14px;
         }
     }
     @media screen and (max-width:320px){
@@ -199,5 +415,17 @@ width: 65%;
         }
         .banner-text {
             width: 280px;
+        }
+        .head-text {
+            width: 285px;
+        }
+        .head-text h1 {
+            font-size: 28px;
+        }
+        .head-text p {
+            font-size: 12px;
+        }
+        .box-3 {
+            width: 73%;
         }
     }
