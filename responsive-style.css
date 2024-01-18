@@ -189,6 +189,35 @@ input {
         left: 80px;
         padding: 28px;
     }
+    .row-img-1 {
+        width: 100%;
+    }
+
+    .row-img-2 {
+        width: 100%;
+    }
+
+    .row-img-3 {
+        width: 100%;
+    }
+    .row-img-4 {
+        width: 100%;
+    }
+
+    .row-img-5 {
+        width: 100%;
+    }
+    .row-img-6 {
+        width: 100%;
+    }
+    .row-img-7 {
+        width: 100%;
+        
+    }
+    .img-section-1 {
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
 }
 
 
@@ -232,6 +261,7 @@ input {
     .text-contain-1 {
         left: 52px;
     }
+
 }
 /* @media screen and (max-width:480px) {
     .container{

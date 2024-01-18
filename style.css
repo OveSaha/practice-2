@@ -214,12 +214,13 @@ line-height: 26px;
 
 .img-section-1{
     display: flex;
-    gap: 10px;
-    margin-bottom: 20px;
+    gap: 14px;
+    margin-bottom: 14px;
     
 }
 .row-img-1 {
     width: 50%;
+    height: 300px;
 }
 
 .row-img-1 img {
@@ -229,6 +230,7 @@ line-height: 26px;
 
 .row-img-2 {
     width: 50%;
+    height: 300px;
 }
 
 .row-img-2 img {
@@ -237,6 +239,7 @@ line-height: 26px;
 }
 .row-img-3 {
     width: 30%;
+    height: 300px;
 }
 
 .row-img-3 img {
@@ -245,6 +248,7 @@ line-height: 26px;
 }
 .row-img-4 {
     width: 40%;
+    height: 300px;
 }
 
 .row-img-4 img {
@@ -253,6 +257,7 @@ line-height: 26px;
 }
 .row-img-5 {
     width: 30%;
+    height: 300px;
 }
 
 .row-img-5 img {
@@ -261,6 +266,7 @@ line-height: 26px;
 }
 .row-img-6 {
     width: 40%;
+    height: 300px;
 }
 
 .row-img-6 img {
@@ -269,6 +275,7 @@ line-height: 26px;
 }
 .row-img-7 {
     width: 60%;
+    height: 300px;
 }
 
 .row-img-7 img {
