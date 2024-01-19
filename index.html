@@ -6,8 +6,68 @@
     <title>project 2</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-    <link rel="stylesheet" href="style.css">
+    
     <link rel="stylesheet" href="responsive-style.css">
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+        footer{
+    background: rgba(19, 19, 24, 0.05);
+}
+.footer-logo {
+    padding: 50px;
+}
+.logo {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+    .logo img{
+    width: 55px;
+    }
+    
+    .logo p {
+        margin-left: 16px;
+        color: #131318;
+        font-size: 25px;
+        font-weight: 800;
+        line-height: normal;
+    }
+    
+    .logo span {
+        color: #FF5400;
+        font-size: 25px;
+        font-weight: 800;
+        line-height: normal;
+    }
+    .text-footer {
+    color: #5A5A5D;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    width: 715px;
+    margin: 10px auto;
+    border-bottom: 1px solid #c9c7c7;
+}
+.text-footer p {
+    margin-bottom: 15px;
+}
+.icon-foot i {
+    padding: 6px;
+    margin-bottom: 7px;
+    color: black;
+}
+.copy-text p {
+    color: #131318;
+    font-size: 15px;
+    text-align: center;
+    padding: 20px;
+}
+    </style>
 </head>
 <body>
     <header>
@@ -48,18 +108,18 @@
                 <div class="input-div">
                     <input type="text" placeholder="When" id="" class="input-arrow"><i class="fa-solid fa-chevron-down main-icon"></i>
                 </div> -->
-                <select name="" id="">
+                <select name="when" id="">
                     <option value="When">When</option>
                     <option value="at 5:00 am">at 5:00 am</option>
                     <option value="at 5:30 am">at 5:30 am</option>
                     <option value="at 6:00 am">at 6:00 am</option>
                     <option value="at 7:00 am">at 7:00 am</option>
                   </select>
-                <select placeholder="" id="">
-                    <option value="">Select Type</option>
-                    <option value="">chittagong</option>
-                    <option value="">dhaka</option>
-                    <option value="">Rangamati</option>
+                <select name="Select Type">
+                    <option value="Select Type">Select Type</option>
+                    <option value="chittagong">chittagong</option>
+                    <option value="dhaka">Dhaka</option>
+                    <option value="Rangamati">Rangamati</option>
                 </select>
                 <button><i class="fa-solid fa-magnifying-glass"></i>Find Now</button>
             </form> 
@@ -286,7 +346,54 @@
     </div>
 </section>
 
+<!-- last section -->
+
+<section>
+    <div class="container">
+        <div class="news">
+            <div class="news-form">
+                <h1>Newsletter</h1>
+                <p>Get your daily dose of travel news & tips. Sign up today!</p>
+                <form class="sub" action="">
+                    <input placeholder="Enter Your Name" type="text">
+                    <input placeholder="Enter Your Email" type="email" name="" id="">
+                    <button class="news-sub-btn">Subscribe</button>
+                </form>
+            </div>
+            <div class="news-img">
+                <img src="Images/Rectangle 8 (1).png" alt="">
+                <div class="save">
+                    <p>Travel.com</p>
+                    <h2>Save up to 70%</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
     </main>
-    <footer></footer>
+    
+    <footer>
+        <div class="container">
+            <div class="footer-logo">
+                <div class="logo">
+                    <img src="Images/Group 40071 (2).png" alt="">
+                    <p>Happy <span>Tour</span></p>
+                </div>
+                <div class="text-footer">
+                    <p>Lorem ipsum dolor sit amet consectetur. Nulla sit viverra morbi vitae blandit orci potenti vulputate. Leo erat maecenas vitae elementum ultricies nullam. </p>
+                    <div class="icon-foot">
+                        <i class="fa-brands fa-twitter"></i>
+                        <i class="fa-brands fa-facebook"></i>
+                        <i class="fa-brands fa-instagram"></i>
+                        <i class="fa-brands fa-github"></i>
+                    </div>
+                </div>
+                <div class="copy-text">
+                    <p>2017, All Rights Reserved.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
