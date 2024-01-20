@@ -195,7 +195,7 @@ line-height: 26px;
     padding: 19px;
 }
 .button-read-more {
-    border: 1px solid red;
+    border: 1px solid #FF5400;
     padding: 9px 17px;
     font-size: 15px;
     margin-top: 15px;
@@ -240,7 +240,7 @@ h1.city {
     cursor: pointer;
 }
 .row-img-1:hover > h1.city{
-color: red;
+color: #FF5400;
 cursor: pointer;
 transform: scale(1.5);
 }
@@ -266,7 +266,7 @@ h1.city {
     cursor: pointer;
 }
 .row-img-2:hover > h1.city{
-color: red;
+color: #FF5400;
 cursor: pointer;
 transform: scale(1.5);
 }
@@ -291,7 +291,7 @@ h1.city {
     cursor: pointer;
 }
 .row-img-3:hover > h1.city{
-color: red;
+color: #FF5400;
 cursor: pointer;
 transform: scale(1.5);
 }
@@ -317,7 +317,7 @@ h1.city {
     cursor: pointer;
 }
 .row-img-4:hover > h1.city{
-color: red;
+color: #FF5400;
 cursor: pointer;
 transform: scale(1.5);
 }
@@ -342,7 +342,7 @@ h1.city {
     cursor: pointer;
 }
 .row-img-5:hover > h1.city{
-color: red;
+color: #FF5400;
 cursor: pointer;
 transform: scale(1.5);
 }
@@ -367,7 +367,7 @@ h1.city {
     cursor: pointer;
 }
 .row-img-6:hover > h1.city{
-color: red;
+color: #FF5400;
 cursor: pointer;
 transform: scale(1.5);
 }
